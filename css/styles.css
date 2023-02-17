@@ -21,6 +21,7 @@ ul{
     list-style-type: none;
 }
 .logo-first{
+    font-family: 'Raleway';
     font-size: 18px;
     line-height: 24px;
     font-size: 18px;
@@ -29,6 +30,7 @@ ul{
     text-decoration: none;
 }
 .logo-second{
+    font-family: 'Raleway';
     color: var(--color-primary);
 }
 .logo-footer{
