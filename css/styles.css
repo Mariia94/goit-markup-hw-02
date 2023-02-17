@@ -1,126 +1,97 @@
+:root{
+    --color-primary: #2E2F42;
+    --color-primary-dark: #434455;
+    --color-secondary: #ffffff;
+    --color-brand: #4D5AE5;
+    --color-brand-secondary: #404BBF;
+    --color-brand-inverted: #E7E9FC;
+    --color-background: #ffffff;
+    --color-background-secondary: #F4F4FD;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: inherit;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
-    background-color: #fff;
+    background-color: var(--color-background);
     
 }
 ul{
     list-style-type: none;
 }
 .logo-first{
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 800;
     font-size: 18px;
     line-height: 24px;
     font-size: 18px;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: var(--color-brand);
     text-decoration: none;
 }
 .logo-second{
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    color: #2E2F42;
-    text-decoration: none;
+    color: var(--color-primary);
 }
 .logo-footer{
-    color: #F4F4FD;
+    color: var(--color-background-secondary);
 }
 .address{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-primary-dark);
     text-decoration: none;
 }
-.address :hover{
-    color: #404BBF;
+.address:hover,
+.address:focus{
+    color: var(--color-brand-secondary);
 }
 .main-title{
-    background: #2E2F42;
+    background: var(--color-primary);
 }
 .main-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--color-secondary);
 }
 .main-button{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     display: flex;
 }
 .features{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
-}
-.main-features{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--color-primary);
 }
 .section{
-    background: #F4F4FD;
+    background: var(--color-background-secondary);
 }
 .feature-title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-primary);
 }
 .main-info{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-primary-dark);
 }
 .page-link{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-primary);
     text-decoration: none;
 }
-.page-link :hover{
-    color: #404BBF;
+.page-link:hover,
+.page-link:focus{
+    color: var(--color-brand-secondary);
 }
 .main-button{
     font-family: 'Roboto';
@@ -129,21 +100,19 @@ ul{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    color: #fff;
-    background: #4D5AE5;
+    color: var(--color-secondary);
+    background: var(--color-brand);
     cursor: pointer;
     display: flex;
     flex-direction: row;
+   border: none;
 }
 .footer{
-    background: #2E2F42;
+    background: var(--color-primary);
 }
 .footer-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--color-brand-inverted);
 }
